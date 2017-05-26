@@ -46,6 +46,7 @@ export PYTHONPATH=$PYTHONPATH:$PYTHONHOME/anki-bundled
 3. Create the deck!
 
 ```
+export PYTHONIOENCODING=utf-8
 python main.py \
 --collection_path /Users/$USERNAME/Documents/Anki/darold/collection.anki2 \
 --deck_name my-example-deck \
