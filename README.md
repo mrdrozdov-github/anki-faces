@@ -54,3 +54,11 @@ python main.py \
 ```
 
 Feel free to create your own `example.json` file with your own set of names and urls.
+
+# FAQ
+
+Q: The directory that is meant to have my collection file doesn't exist.
+
+A: This directory's location depends on the version of Anki you are using. From the [docs](https://apps.ankiweb.net/docs/manual.html#managing-files-and-your-collection):
+
+> On Mac computers, recent Anki versions store all their files in the ~/Library/Application Support/Anki2 folder. The Library folder is hidden by default, but can be revealed in Finder by holding down the option key while clicking on the Go menu. If you’re on an older Anki version, your Anki files will be in your Documents/Anki folder.
